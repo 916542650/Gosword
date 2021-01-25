@@ -17,4 +17,5 @@
 
 ### 解题过程
 第一步：先创建一个key为链表的指针，value为布尔类型的hashmap，将链表存储为key，并默认value为ture
+
 第二步：for循环遍历另外一个链表，并再循环里将该链表作为hashmap的key判断是否ok，找到改公共节点
