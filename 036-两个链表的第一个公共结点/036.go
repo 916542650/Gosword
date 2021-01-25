@@ -1,3 +1,5 @@
+
+// 解法三：hashmap
 func FindFirstCommonNode( pHead1 *ListNode ,  pHead2 *ListNode ) *ListNode {
     // write code here
 	m := make(map[*ListNode]bool)
